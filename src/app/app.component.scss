@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    .navbar-brand {
+      // You can add specific styles for the brand here if needed
+    }
+  
+    .spacer {
+      flex: 1 1 auto;
+    }
+  
+    .button-container {
+      display: flex;
+      gap: 10px; // This adds space between the buttons
+  
+      button {
+        // You can add specific styles for the buttons here if needed
+      }
+    }
+  }
