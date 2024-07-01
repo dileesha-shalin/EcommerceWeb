@@ -1,22 +1,28 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
+  padding: 0 16px;
   align-items: center;
-
+}
   .navbar-brand {
-    // You can add specific styles for the brand here if needed
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 16px;
   }
 
   .spacer {
-    flex: 1 1 auto;
+    flex: 1;
   }
-
-  .button-container {
-    display: flex;
-    gap: 10px; // This adds space between the buttons
 
     button {
-      // You can add specific styles for the buttons here if needed
+      color: white;
+      text-transform: uppercase;
+      margin-left: 8px;
     }
-  }
-}
+
+    button.active{
+      font-weight: 600;
+    }
+
+    .custom-toolbar{
+      background-color: red;
+    }
